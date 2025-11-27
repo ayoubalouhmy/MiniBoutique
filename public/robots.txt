@@ -1,0 +1,48 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+
+import About from './About.jsx'
+import Product from './Product.jsx'
+import heroImg from '../images/hero.jpg' // ✅ change le nom si ton image est différente
+
+const Home = ({ products, addtocard }) => {
+  return (
+    <div className="container mt-5 pt-5">
+
+      {/* 🟢 Section Home */}
+      <section id="home" className="py-5">
+        <div className="row align-items-center">
+          <div className="col-lg-6">
+            
+          </div>
+
+          <div className="col-lg-6 text-center">
+            <img
+              src={heroImg}
+              alt="Hero"
+              className="img-fluid rounded shadow"
+              style={{ maxHeight: "350px", objectFit: "cover" }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* 🟣 Section About */}
+      <section id="about" className="py-5 bg-light">
+        <About />
+      </section>
+
+      {/* 🟠 Section Product */}
+      <section id="product" className="py-5">
+        <h2 className="text-center mb-4">Nos Produits</h2>
+        <Product product={products} addtocard={addtocard} />
+      </section>
+
+    </div>
+  )
+}
+
+export default Home
