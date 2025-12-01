@@ -7,16 +7,19 @@ L’application permet aux utilisateurs de parcourir les produits, voir les dét
 
 ---
 
+## Structure du projet
+```
 /src
  ├── components
  │    ├── DetailsProduct.jsx
  │    ├── Home.jsx
  │    ├── Navbar.jsx
- │    ├── panier.jsx
+ │    ├── Panier.jsx
  │    └── Products.jsx
  ├── App.css
  ├── App.js
  ├── index.js
+```
 
 ---
 
@@ -41,14 +44,13 @@ L’application permet aux utilisateurs de parcourir les produits, voir les dét
   <!-- GitHub -->
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 
-  <!-- Shields.io -->
-  <img src="https://img.shields.io/badge/Shields.io-Badges-blue?style=for-the-badge"/>
 
 </p>
 
 ---
 
 ### Fonctionnalités
+---
 
 #### Pages principales
 
@@ -57,6 +59,8 @@ L’application permet aux utilisateurs de parcourir les produits, voir les dét
 **Products** : Liste complète des produits.
 
 **Cart** : Gestion du panier.
+
+---
 
 #### Fonctionnalités du Panier :
 
@@ -67,6 +71,8 @@ Supprimer un produit
 Modifier la quantité
 
 Calcul automatique du total
+
+---
 
 #### Produits
 
