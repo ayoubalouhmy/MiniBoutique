@@ -12,14 +12,14 @@ const Products=({filterProduct,search,setsearch})=>{
                         <input type="text" placeholder="Search by categorie" value={search} onChange={(e)=> setsearch(e.target.value)} />                        
                     </div>
                     <hr className="hr" />
-                <div className="row g-4 justify-content-between">
+                <div className="row g-4 justify-content-between text-center">
                     {filterProduct.map(e => 
                         <div className="col-lg-3 col-md-4 col-6 p-1">
                             <div className="Card">
                                 <img src={e.image} alt="" />
-                                <small>{e.categorie}</small>
-                                <p>{e.name}</p>
-                                <small>{e.price}</small>
+                                <small className="text-muted">{e.categorie}</small>
+                                <h6 className="fw-bold mb-1">{e.name}</h6>
+                                  <p className="text-danger mb-1 fw-bold">{e.price} MAD</p>
                                 <Link to={`/DetailsProduct/${e.id}`} style={{textDecoration:'none'}}> <button className="d-block ">Add To Card</button></Link>
                             </div>                            
                         </div>

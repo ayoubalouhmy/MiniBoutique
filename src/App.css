@@ -44,6 +44,21 @@ body{
    cursor: pointer;
 }
 
+.shop-btn {
+  text-decoration:none;
+  color: rgb(0, 0, 0) ;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: white;
+  width: 92%;
+  margin: 0 auto;
+  transition: 0.4s ease;
+
+}
+.shop-btn:hover {
+  background-color: black;
+  color: white;
+}
 
 /*  */
 
@@ -94,8 +109,8 @@ body{
   border-radius: 4px;
 
 }
-.Card small,p,h3{
-  padding: 0 8px;
+.Card small,h6,h3{
+  padding: 0 7px;
 }
 
 .Card button{

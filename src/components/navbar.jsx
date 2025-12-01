@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
   return (
     <nav className="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#home">MyShop</a>
+        <a className="navbar-brand fw-bold" href="#home">FlexStyle</a>
 
         <button
           className="navbar-toggler"
