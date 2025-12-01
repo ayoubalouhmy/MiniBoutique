@@ -23,6 +23,14 @@ L’application permet aux utilisateurs de parcourir les produits, voir les dét
 
 ---
 
+## Image de projet 
+
+![Capture du site](./public/projectPicture/Capture%20d'écran%202025-12-01%20130139.png)
+![Capture du site](./public/projectPicture/Capture%20d'écran%202025-12-01%20130214.png)
+![Capture du site](./public/projectPicture/Capture%20d'écran%202025-12-01%20130251.png)
+![Capture du site](./public/projectPicture/Capture%20d'écran%202025-12-01%20130340.png)
+
+
 ### Technologies
 <p align="left">
 
